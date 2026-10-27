@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #080a0f;
+  --color-navy: #101827;
+  --color-navy-light: #172236;
+  --color-gold: #d4af66;
+  --color-gold-bright: #e6c887;
+  --color-champagne: #f5e9ce;
+  --color-warm-white: #f7f5f1;
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-midnight);
+  color: var(--color-warm-white);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold-bright);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Restrained decorative sound-wave motion */
+@keyframes vas-wave {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+
+.wave-bar {
+  transform-origin: center;
+  animation: vas-wave 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .wave-bar { animation: none; transform: scaleY(0.7); }
+  * { transition-duration: 0.01ms !important; }
+}
