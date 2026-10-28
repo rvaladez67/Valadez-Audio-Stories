@@ -12,22 +12,22 @@ export default function Home() {
   return (
     <>
       <header className="sticky top-0 z-30 border-b border-gold/20 bg-midnight/90 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-          <a href="#top" className="flex items-center gap-3">
+        <div className="mx-auto flex h-14 max-w-6xl sm:h-16 items-center justify-between px-4 sm:px-6">
+          <a href="#top" className="flex min-w-0 items-center gap-2 sm:gap-3">
             <Image
               src="/images/vas-logo.png"
               alt="Valadez Audio Stories logo"
               width={44}
               height={44}
               sizes="44px"
-              className="h-11 w-11 rounded-full"
+              className="h-10 w-10 shrink-0 rounded-full sm:h-11 sm:w-11"
               priority
             />
-            <span className="font-display text-xl font-semibold tracking-wide text-champagne">
+            <span className="font-display text-lg font-semibold tracking-wide text-champagne sm:text-xl">
               {siteConfig.name}
             </span>
           </a>
-          <a href="#stories" className="rounded-lg px-3 py-2 text-sm font-medium text-gold hover:text-gold-bright">
+          <a href="#stories" className="hidden shrink-0 rounded-lg px-3 py-2 text-sm sm:inline-flex font-medium text-gold hover:text-gold-bright">
             Explore Stories
           </a>
         </div>
@@ -35,20 +35,20 @@ export default function Home() {
 
       <main id="top">
         <section className="relative overflow-hidden bg-[radial-gradient(ellipse_at_top,var(--color-navy-light),var(--color-midnight)_70%)]">
-          <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-6 pt-9 sm:px-6 sm:pb-20 sm:pt-16 lg:grid-cols-[1.2fr_1fr] lg:pt-24">
+          <div className="mx-auto grid max-w-6xl items-center gap-7 px-4 pb-4 pt-6 sm:gap-10 sm:px-6 sm:pb-20 sm:pt-16 lg:grid-cols-[1.2fr_1fr] lg:pt-24">
             <div>
-              <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-gold">
+              <p className="mb-3 text-xs sm:mb-4 font-semibold uppercase tracking-[0.3em] text-gold">
                 Original Audio Dramas
               </p>
-              <h1 className="font-display text-5xl font-bold leading-[1.05] text-champagne sm:text-6xl lg:text-7xl">
+              <h1 className="font-display text-[2.75rem] font-bold leading-[1.05] text-champagne sm:text-6xl lg:text-7xl">
                 One Story Is Never Enough.
               </h1>
-              <p className="mt-5 max-w-xl text-lg italic leading-relaxed text-warm-white/85 sm:text-xl">
+              <p className="mt-4 max-w-xl sm:mt-5 text-lg italic leading-relaxed text-warm-white/85 sm:text-xl">
                 Love. Betrayal. Power. Secrets. Extraordinary worlds. Discover original audio dramas that keep you listening.
               </p>
               <a
                 href="#stories"
-                className="mt-8 inline-flex min-h-14 w-full items-center justify-center rounded-xl bg-gold px-8 text-base font-semibold text-midnight shadow-lg shadow-gold/10 transition hover:bg-gold-bright sm:w-auto"
+                className="mt-5 inline-flex sm:mt-8 min-h-14 w-full items-center justify-center rounded-xl bg-gold px-8 text-base font-semibold text-midnight shadow-lg shadow-gold/10 transition hover:bg-gold-bright sm:w-auto"
               >
                 Explore Our Stories
               </a>
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pointer-events-none flex h-10 items-end justify-center gap-1.5 pb-3" aria-hidden="true">
+          <div className="pointer-events-none flex h-6 items-end justify-center gap-1.5 pb-2 sm:h-10 sm:pb-3" aria-hidden="true">
             {waveHeights.map((h, i) => (
               <span
                 key={i}
@@ -77,10 +77,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="stories" className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-20">
-          <div className="mb-8 text-center sm:mb-10">
+        <section id="stories" className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-20">
+          <div className="mb-6 text-center sm:mb-10">
             <h2 className="font-display text-4xl font-semibold text-champagne sm:text-5xl">Choose Your Story</h2>
-            <p className="mx-auto mt-3 max-w-xl text-warm-white/75">
+            <p className="mx-auto mt-2 max-w-xl text-warm-white/75 sm:mt-3">
               Three original serialized audio dramas. Pick a world and start listening.
             </p>
           </div>
