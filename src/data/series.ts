@@ -12,6 +12,8 @@ export interface Series {
   coverImage: string;
   pocketFmUrl: string;
   displayOrder: number;
+  /** Optional small label shown above the card, e.g. "Featured Romance Drama". */
+  featuredLabel?: string;
   /** Only "published" series appear on the site. */
   status: SeriesStatus;
 }
@@ -27,6 +29,7 @@ export const series: Series[] = [
     pocketFmUrl:
       "https://pocketfm.com/show/the-wife-he-failed/86452e8079723e6a18dcfaace37efb557d4904e2",
     displayOrder: 1,
+    featuredLabel: "Featured Romance Drama",
     status: "published",
   },
   {

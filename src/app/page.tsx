@@ -84,9 +84,17 @@ export default function Home() {
               Three original serialized audio dramas. Pick a world and start listening.
             </p>
           </div>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 md:pt-7 lg:grid-cols-3">
             {stories.map((s, i) => (
-              <SeriesCard key={s.id} series={s} priority={i === 0} />
+              <div key={s.id} className="relative flex flex-col">
+                {s.featuredLabel && (
+                  <p className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold md:absolute md:-top-7 md:left-0 md:mb-0">
+                    <span className="h-px w-6 bg-gold/70" aria-hidden="true" />
+                    {s.featuredLabel}
+                  </p>
+                )}
+                <SeriesCard series={s} priority={i === 0} />
+              </div>
             ))}
           </div>
         </section>
