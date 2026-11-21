@@ -33,18 +33,6 @@ export const series: Series[] = [
     status: "published",
   },
   {
-    id: "inheriting-an-empire",
-    title: "Inheriting an Empire",
-    genres: ["Corporate Thriller", "Mystery", "Power"],
-    description:
-      "Daniel Archer is struggling to keep his business afloat when an extraordinary message arrives. A billionaire he's never met has named him in a mysterious succession arrangement. Why him, and what will accepting it cost?",
-    coverImage: "/images/inheriting-an-empire.png",
-    pocketFmUrl:
-      "https://pocketfm.com/show/inheriting-an-empire/633020765a4f9d97bd70bc4ee5ad561d6705df07",
-    displayOrder: 2,
-    status: "published",
-  },
-  {
     id: "sealed-dragons-awakening",
     title: "Sealed Dragon's Awakening",
     genres: ["Dark Fantasy", "Supernatural", "Revenge"],
@@ -53,7 +41,7 @@ export const series: Series[] = [
     coverImage: "/images/sealed-dragons-awakening.png",
     pocketFmUrl:
       "https://pocketfm.com/show/sealed-dragons-awakening/361c2a22e4f6196adcd4bba7178dd411638e0931",
-    displayOrder: 3,
+    displayOrder: 2,
     status: "published",
   },
 ];
