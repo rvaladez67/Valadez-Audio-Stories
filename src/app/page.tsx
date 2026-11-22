@@ -81,7 +81,7 @@ export default function Home() {
           <div className="mb-6 text-center sm:mb-10">
             <h2 className="font-display text-4xl font-semibold text-champagne sm:text-5xl">Choose Your Story</h2>
             <p className="mx-auto mt-2 max-w-xl text-warm-white/75 sm:mt-3">
-              Two original serialized audio dramas. Pick a world and start listening.
+              Three original serialized audio dramas. Pick a world and start listening.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 md:pt-7 lg:grid-cols-3">
