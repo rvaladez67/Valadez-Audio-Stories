@@ -24,7 +24,7 @@ export const series: Series[] = [
     title: "The Wife He Failed",
     genres: ["Romance", "Betrayal", "Second Chances"],
     description:
-      "When Isabella Morgan was accused of stealing millions, her billionaire husband believed the evidence and divorced her. Three years later, she returns to Manhattan with a thriving business and a daughter Alexander Sterling never knew he had. He wants a place in their lives. Isabella wants to know who set her up. The closer they get to the truth, the clearer it becomes why someone in the Sterling family needed their marriage to end. Now their daughter stands to inherit a share of the family fortune.",
+      "When Isabella Morgan was accused of stealing millions, her billionaire husband believed the evidence and divorced her. Three years later, she returns to Manhattan with a thriving business and a daughter Alexander Sterling never knew he had. He wants a second chance. She wants to know who framed her. Their daughter stands to inherit part of the Sterling fortune, and someone in the family already ruined Isabella once to protect it.",
     coverImage: "/images/the-wife-he-failed.png",
     pocketFmUrl:
       "https://pocketfm.com/show/the-wife-he-failed/86452e8079723e6a18dcfaace37efb557d4904e2",
