@@ -50,7 +50,7 @@ export const series: Series[] = [
     genres: ["Corporate Thriller", "Family Drama", "Secrets"],
     description:
       "Daniel Archer loses a contract after refusing to sign off on a failed freight test. Then he gets a shot at directing the largest voting bloc at Wren Consolidated, and the executive who cut him loose retaliates by rerouting a truck full of groceries away from the town counting on it. As Daniel takes on one of the company’s most powerful men, his eleven-year-old daughter is waiting to see if he’ll keep a simple promise.",
-    coverImage: "/images/the-vote-they-feared.png",
+    coverImage: "/images/the-vote-they-feared-v2.png",
     pocketFmUrl:
       "https://pocketfm.com/show/the-vote-they-feared/132e2d777f499374b38eda34fb260d429e996f9b",
     displayOrder: 3,
