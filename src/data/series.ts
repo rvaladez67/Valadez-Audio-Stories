@@ -24,7 +24,7 @@ export const series: Series[] = [
     title: "The Wife He Failed",
     genres: ["Romance", "Betrayal", "Second Chances"],
     description:
-      "He believed the accusations and lost the woman who loved him. Three years later, Isabella Morgan returns with a life she's rebuilt and secrets that could change everything.",
+      "When Isabella Morgan was accused of stealing millions, her billionaire husband believed the evidence and divorced her. Three years later, she returns to Manhattan with a thriving business and a daughter Alexander Sterling never knew he had. He wants a place in their lives. Isabella wants to know who set her up. The closer they get to the truth, the clearer it becomes why someone in the Sterling family needed their marriage to end. Now their daughter stands to inherit a share of the family fortune.",
     coverImage: "/images/the-wife-he-failed.png",
     pocketFmUrl:
       "https://pocketfm.com/show/the-wife-he-failed/86452e8079723e6a18dcfaace37efb557d4904e2",
@@ -37,7 +37,7 @@ export const series: Series[] = [
     title: "Sealed Dragon's Awakening",
     genres: ["Dark Fantasy", "Supernatural", "Revenge"],
     description:
-      "Fernando Ashborne is an overlooked analyst caught in a dangerous conspiracy. As betrayal closes in, a hidden legacy threatens to transform everything he believes about himself.",
+      "Fernando Ashborne gets paid to spot what everyone else misses. He never sees his own betrayal coming. When a conspiracy makes him a target, the overlooked analyst discovers a dragon’s power sealed in his blood. It might keep him alive long enough to find out who set him up. But every time he draws on it, he loses a little more of himself. How much will be left by the time he gets his revenge?",
     coverImage: "/images/sealed-dragons-awakening.png",
     pocketFmUrl:
       "https://pocketfm.com/show/sealed-dragons-awakening/361c2a22e4f6196adcd4bba7178dd411638e0931",
