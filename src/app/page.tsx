@@ -81,12 +81,12 @@ export default function Home() {
           <div className="mb-6 text-center sm:mb-10">
             <h2 className="font-display text-4xl font-semibold text-champagne sm:text-5xl">Choose Your Story</h2>
             <p className="mx-auto mt-2 max-w-xl text-warm-white/75 sm:mt-3">
-              Three original serialized audio dramas. Pick a world and start listening.
+              Four original serialized audio dramas. Pick a world and start listening.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 md:pt-7 lg:grid-cols-3">
             {stories.map((s, i) => (
-              <div key={s.id} className="relative flex flex-col">
+              <div key={s.id} className="relative flex flex-col lg:[&:last-child:nth-child(3n+1)]:col-start-2">
                 {s.featuredLabel && (
                   <p className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold md:absolute md:-top-7 md:left-0 md:mb-0">
                     <span className="h-px w-6 bg-gold/70" aria-hidden="true" />
