@@ -56,6 +56,18 @@ export const series: Series[] = [
     displayOrder: 3,
     status: "published",
   },
+  {
+    id: "who-gets-the-dawn",
+    title: "Who Gets the Dawn?",
+    genres: ["Greek Mythology", "Fantasy Adventure", "Family Drama"],
+    description:
+      "When the sun goes out over Las Cruces, a rescue pilot can’t see the wires below him. Rosa, a solar technician, takes the reins of the sun chariot and lights his landing site. Another road goes dark. Her thirteen-year-old son is on it. Then Rosa learns the gods have been moving dawn from one town to another for generations. If she gives one town its morning back, whose dawn will she take?",
+    coverImage: "/images/who-gets-the-dawn.png",
+    pocketFmUrl:
+      "https://pocketfm.com/show/who-gets-the-dawn/69433db955b2f59e33a3dfc9d91e957690c168f4",
+    displayOrder: 4,
+    status: "published",
+  },
 ];
 
 export function getPublishedSeries(): Series[] {
